@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { BsFillMoonStarsFill } from 'react-icons/bs';
 
 export default function Home() {
   return (
@@ -9,9 +10,61 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <section className=' bg-purple-500 min-h-screen'>
-          <h1 className='text-3xl font-bold underline'>Hey</h1>
+
+      <header>
+        <nav className=' bg-darkbg text-white p-5 flex justify-between align-middle text-sm font-proximaRegular'>
+          <h1 className="text-3xl font-apocalypse text-white">GRAHDA KUGAR</h1>
+          <ul className='flex gap-10 items-center font-proximaBold'>
+            <li>
+              <a href="#">
+                EN
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                HU
+              </a>
+            </li>
+          </ul>
+
+          <ul className='flex gap-10 items-center'>
+            <li>
+              <a href="#">
+                Homepage
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Pricing
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Contact
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Support
+              </a>
+            </li>
+          </ul>
+
+          <ul className='flex gap-5 items-center'>
+            <li>
+              <BsFillMoonStarsFill className='cursor-pointer text-white' /></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main className='bg-white'>
+        <section className='min-h-screen max-w-6xl py-40 m-auto'>
+          <div>
+            <h2 className='font-proximaBlack text-8xl mb-5'>GET READY FOR APOCALPYSE</h2>
+            <p className='font-proximaRegular mb-10 tracking-wide max-w-2xl'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus adipisci consectetur vitae inventore magni dolorum sequi mollitia quisquam officiis voluptatibus?</p>
+            <a className=' bg-lime-900 font-robotoBlack text-white px-6 py-5 tracking-wider uppercase rounded-xl'>Discover</a>
+          </div>
+
         </section>
       </main>
     </div>

@@ -9,7 +9,22 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        raw: "Raw",
+        apocalypse: "Apocalypse",
+        proximaRegular: "Proxima Regular",
+        proximaBold: "Proxima Bold",
+        proximaBlack: "Proxima Black",
+        robotoLight: "Roboto Light",
+        robotoRegular: "Roboto Regular",
+        robotoBlack: "Roboto Black",
+      }
+    },
+    colors: {
+      'darkbg': '#1b1c17',
+      'white': '#ffffff'
+    }
   },
   plugins: [],
 }

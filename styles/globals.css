@@ -104,4 +104,27 @@ a {
   text-decoration: none;
 }
 
+@font-face {
+  font-family: 'Apocalypse';
+  src: url("../public/fonts/Apocalypse.ttf");
+}
 
+@font-face {
+  font-family: 'Raw';
+  src: url("../public/fonts/María Mercedes Graffiti Shop.ttf");
+}
+
+@font-face {
+  font-family: 'Proxima Regular';
+  src: url("../public/fonts/ProximaNova-Regular.otf");
+}
+
+@font-face {
+  font-family: 'Proxima Bold';
+  src: url("../public/fonts/ProximaNova-Bold.otf");
+}
+
+@font-face {
+  font-family: 'Proxima Black';
+  src: url("../public/fonts/ProximaNova-Black.otf");
+}
