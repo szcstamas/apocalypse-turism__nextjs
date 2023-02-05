@@ -19,10 +19,14 @@ module.exports = {
         robotoLight: "Roboto Light",
         robotoRegular: "Roboto Regular",
         robotoBlack: "Roboto Black",
+      },
+      backgroundImage: {
+        'hero-pattern': "url('/img/background-apocalypse.jpg')",
       }
     },
     colors: {
       'darkbg': '#1b1c17',
+      'darkbgtransp': 'rgba(0, 0, 0, .25)',
       'white': '#ffffff'
     }
   },

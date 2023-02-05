@@ -44,6 +44,15 @@
   --card-border-rgb: 131, 134, 135;
 }
 
+::-webkit-scrollbar {
+  width: 20px;
+  background-color: #272727;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #fff;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;

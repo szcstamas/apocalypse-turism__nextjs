@@ -11,17 +11,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header>
-        <nav className=' bg-darkbg text-white p-5 flex justify-between align-middle text-sm font-proximaRegular'>
+      <header className='fixed top-0 left-0 w-full backdrop-blur-md bg-darkbgtransp z-50'>
+        <nav className='text-white p-5 px-10 flex justify-between align-middle text-xs font-proximaRegular uppercase tracking-widest'>
           <h1 className="text-3xl font-apocalypse text-white">GRAHDA KUGAR</h1>
           <ul className='flex gap-10 items-center font-proximaBold'>
             <li>
-              <a href="#">
+              <a href="#" className='text-sm p-2 bg-white text-darkbg rounded-md transition-all hover:bg-darkbgtransp hover:text-white'>
                 EN
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="#" className='text-sm p-2 bg-white text-darkbg rounded-md transition-all hover:bg-darkbgtransp hover:text-white'>
                 HU
               </a>
             </li>
@@ -57,14 +57,54 @@ export default function Home() {
         </nav>
       </header>
 
-      <main className='bg-white'>
-        <section className='min-h-screen max-w-6xl py-40 m-auto'>
-          <div>
+      <main className='bg-white overflow-hidden'>
+        <section className='min-h-screen py-40 m-auto bg-src bg-hero-pattern bg-cover w-screen flex'>
+          <div className='max-w-6xl m-auto'>
             <h2 className='font-proximaBlack text-8xl mb-5'>GET READY FOR APOCALPYSE</h2>
-            <p className='font-proximaRegular mb-10 tracking-wide max-w-2xl'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus adipisci consectetur vitae inventore magni dolorum sequi mollitia quisquam officiis voluptatibus?</p>
-            <a className=' bg-lime-900 font-robotoBlack text-white px-6 py-5 tracking-wider uppercase rounded-xl'>Discover</a>
+            <p className='font-proximaRegular mb-10 tracking-wide max-w-2xl text-white drop-shadow-lg'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus adipisci consectetur vitae inventore magni dolorum sequi mollitia quisquam officiis voluptatibus?</p>
+            <a href="#" className=' bg-darkbg transition-all inline-block hover:bg-darkbgtransp font-proximaBold text-white px-6 py-5 tracking-widest uppercase rounded-xl'>Discover</a>
+          </div>
+        </section>
+
+        <section className='relative min-h-screen m-auto bg-src bg-cover w-screen flex border-t-8'>
+          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 flex max-w-6xl m-auto flex-wrap gap-5">
+            <div className='bg-white p-12 w-[calc(50%_-_1.25rem)]'>
+              <h4 className='font-proximaBlack text-4xl mb-5'>GRAHKAD GURA</h4>
+              <p className='font-proximaRegular mb-10 tracking-wide max-w-2xl drop-shadow-lg'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus adipisci consectetur vitae inventore magni dolorum sequi mollitia quisquam officiis voluptatibus?</p>
+              <a href="#" className=' bg-darkbg transition-all inline-block hover:bg-darkbgtransp hover:text-darkbg font-proximaBold text-white px-6 py-5 tracking-widest uppercase rounded-xl'>Discover</a>
+            </div>
+
+            <div className='bg-white p-12 w-[calc(50%_-_1.25rem)]'>
+              <h4 className='font-proximaBlack text-4xl mb-5'>GRAHKAD GURA</h4>
+              <p className='font-proximaRegular mb-10 tracking-wide max-w-2xl drop-shadow-lg'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus adipisci consectetur vitae inventore magni dolorum sequi mollitia quisquam officiis voluptatibus?</p>
+              <a href="#" className=' bg-darkbg transition-all inline-block hover:bg-darkbgtransp hover:text-darkbg font-proximaBold text-white px-6 py-5 tracking-widest uppercase rounded-xl'>Discover</a>
+            </div>
+
+            <div className='bg-white p-12 w-[calc(50%_-_1.25rem)]'>
+              <h4 className='font-proximaBlack text-4xl mb-5'>GRAHKAD GURA</h4>
+              <p className='font-proximaRegular mb-10 tracking-wide max-w-2xl drop-shadow-lg'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus adipisci consectetur vitae inventore magni dolorum sequi mollitia quisquam officiis voluptatibus?</p>
+              <a href="#" className=' bg-darkbg transition-all inline-block hover:bg-darkbgtransp hover:text-darkbg font-proximaBold text-white px-6 py-5 tracking-widest uppercase rounded-xl'>Discover</a>
+            </div>
+
+            <div className='bg-white p-12 w-[calc(50%_-_1.25rem)]'>
+              <h4 className='font-proximaBlack text-4xl mb-5'>GRAHKAD GURA</h4>
+              <p className='font-proximaRegular mb-10 tracking-wide max-w-2xl drop-shadow-lg'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus adipisci consectetur vitae inventore magni dolorum sequi mollitia quisquam officiis voluptatibus?</p>
+              <a href="#" className=' bg-darkbg transition-all inline-block hover:bg-darkbgtransp hover:text-darkbg font-proximaBold text-white px-6 py-5 tracking-widest uppercase rounded-xl'>Discover</a>
+            </div>
           </div>
 
+          <video
+            loop
+            autoplay
+            muted
+            class="absolute w-auto min-w-full min-h-full max-w-none"
+          >
+            <source
+              src="videos/apocalypse.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
         </section>
       </main>
     </div>
