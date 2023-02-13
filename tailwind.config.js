@@ -10,6 +10,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      width: {
+        '9%': '9.333333%'
+      },
+      dropShadow: {
+        '3xl': '0 10px 20px rgba(0, 0, 0, 1)',
+        '2xl': '0 10px 25px rgba(0, 0, 0, .8)'
+      },
       fontFamily: {
         raw: "Raw",
         apocalypse: "Apocalypse",
@@ -26,8 +33,11 @@ module.exports = {
     },
     colors: {
       'darkbg': '#1b1c17',
-      'darkbgtransp': 'rgba(0, 0, 0, .25)',
-      'white': '#ffffff'
+      'black': '#0d0d0d',
+      'red': 'red',
+      'darkgray': '#272727',
+      'darkbgtransp': 'rgba(0, 0, 0, .7)',
+      'white': '#ffffff',
     }
   },
   plugins: [],
