@@ -1,1 +1,1 @@
-My first next js project
+Next.js project with Tailwind - including routing and Framer Motion.
